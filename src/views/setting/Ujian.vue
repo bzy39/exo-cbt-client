@@ -20,11 +20,11 @@
                         </b-form-checkbox>
                         <div class="form-group mt-4">
                             <label>Text Welcome / Peraturan Ujian</label>
-                            <ckeditor v-model="ujian.value.text_welcome"  type="inline" :disabled="isLoading"></ckeditor>
+                            <ckeditor v-model="ujian.value.text_welcome" :config="{versionCheck: false}" type="inline" :disabled="isLoading"></ckeditor>
                         </div>
                         <div class="form-group mt-4">
                             <label>Text Finish Ujian</label>
-                            <ckeditor v-model="ujian.value.text_finish"  type="inline" :disabled="isLoading"></ckeditor>
+                            <ckeditor v-model="ujian.value.text_finish"  :config="{versionCheck: false}" type="inline" :disabled="isLoading"></ckeditor>
                         </div>
                         <div class="form-group">
                             <b-button variant="primary" type="submit" :disabled="isLoading">

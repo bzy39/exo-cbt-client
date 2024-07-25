@@ -411,6 +411,7 @@ export default {
       show_opsi: true,
       layout: 1,
       editorConfig: {
+        versionCheck: false,
         autoGrow_maxHeight: 600,
         extraPlugins: 'sourcedialog',
         allowedContent: true,

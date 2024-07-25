@@ -80,6 +80,7 @@ export default {
       showEditor: false,
       editorData: '',
       editorConfig: {
+        versionCheck: false,
         extraPlugins: 'sourcedialog',
         allowedContent: true,
         filebrowserUploadUrl: '/api/v1/file/upload?',

@@ -416,6 +416,7 @@ export default {
       show_opsi: true,
       layout: 1,
       editorConfig: {
+        versionCheck: false,
         extraPlugins: 'sourcedialog',
         allowedContent: true,
         filebrowserUploadUrl: '/api/v1/file/upload?',

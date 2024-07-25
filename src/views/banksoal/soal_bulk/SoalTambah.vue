@@ -104,6 +104,7 @@ export default {
         "1": null
       },
       editor_config: {
+        versionCheck: false,
         autoGrow_maxHeight: 600,
         extraPlugins: 'sourcedialog',
         allowedContent: true,
